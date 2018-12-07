@@ -4,7 +4,7 @@ let l = function(variableToPrint){
 }
 
 //URL da imagem default
-const urlImgDefaultBackground = "media/default.png";
+const urlImgDefaultBackground = "media/default.jpg";
 
 function ambiente(){
 	function criaTabuleiro(){
