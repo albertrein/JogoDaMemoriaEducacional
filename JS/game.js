@@ -89,7 +89,7 @@ function handlerDOM(){
 
 			endOfGame++;
 			if(endOfGame == (dadosDoJogo.info.length/2)){ //Fim do jogo
-				alert("Fim de Jogo, Parabéns!");
+				alert("Parabéns, você concluiu sua maratona de estudos!");
 			}
 
 		}else{
