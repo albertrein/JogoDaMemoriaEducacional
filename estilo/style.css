@@ -1,7 +1,8 @@
 body{
+    font-family: sans-serif;
 	margin: 0;
 	background-image: linear-gradient(to bottom, #00bcd499, #d8f0a9d1);
-	
+	zoom: 71%;
 }
 .content{
 	margin: auto;
@@ -30,6 +31,21 @@ body{
    	background-color: rgba(18, 18, 18, 0.62);
 }
 
+p.tit{
+    text-align: center;
+    color: red;
+    font-size: 45px;
+    font-weight: 900;
+    color: yellow;
+}
+p.subTit{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    color: purple;
+}
+
 .modal-conteudo {
     background-color: #fefefe;
     margin: auto;
@@ -41,9 +57,25 @@ body{
 .audioBtn{
 	color: #5d5581;
     float: right;
-    font-size: 45px;
+    font-size: 86px;
     font-weight: 900;
     cursor: pointer;
+    margin: 0 0 0 30px;
+}
+
+.audioBtn:hover{
+    color: yellow;
+}
+
+p#text{
+    font-size: 26px;
+}
+
+p.tituloModal{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    color: purple;
 }
 
 .closeBtn {
